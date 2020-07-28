@@ -1,6 +1,7 @@
 # Korobov Lattices
 You can use this code to generate a shifted Korobov lattice pointset in R. You will need to specify the number of points, number of dimensions, a generating constant, and the option to generate a shifted Korobov lattice.
 
+
 shift.koro = function(n.pts, dimension, gen_constant, shift) {
     z.korob = vector(length = s)
     z.korob[1] = 1
